@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,55,1) 60%, rgba(0,212,255,1) 100%);
+color: white;
+}
+img{
+    width: 200px;
+}
+div{
+    margin: ;
+}
+
+#header{
+    /* font-family: 'Rubik Vinyl', cursive; */
+    text-align: center;
+    font-size: ;
+}

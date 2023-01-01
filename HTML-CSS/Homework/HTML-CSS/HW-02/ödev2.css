@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: sans-serif;
+  
+    text-align: center;
+  }
+  
+  .clarusway-background {
+    height: 100vh;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+  }
+  
+  .clarusway {
+    border-bottom: 8px solid #a64da6;
+    border-right: 8px solid #a64da6;
+    border-top: 8px solid #6c4d6c;
+    border-left: 8px solid #6c4d6c;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 20px;
+  }
+  
+  span {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 20px;
+    font-size: 48px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 5px solid;
+    outline-color: linear-gradient(
+      90deg,
+      rgba(255, 0, 171, 0.7762863534675615) 0%,
+      rgba(255, 233, 248, 1) 100%
+    );
+    outline-offset: 10px;
+  }
