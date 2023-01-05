@@ -1,0 +1,29 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+}
+html{
+    height: 1000px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50vh 25vh 25vh;
+    
+}
+.content{
+    background-color: lightblue;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content7{
+    overflow: auto;
+}
+.content9{
+    background-image: url(https://cdn.pixabay.com/photo/2022/12/30/11/09/cat-7686662_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
