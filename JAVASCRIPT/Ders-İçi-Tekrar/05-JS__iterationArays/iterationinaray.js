@@ -113,3 +113,11 @@ let öğrenciler=["john","Ali", "Ahmet"];
 //     console.log(v);
 // }
 öğrenciler.forEach((x)=>console.log(x))
+ 
+
+const prices=[100,250,50,89]
+for (let fiyat of prices){
+    console.log(fiyat);
+}
+console.log("forEach de ise");
+prices.forEach((fiyat)=>console.log(fiyat));
