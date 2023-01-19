@@ -38,7 +38,7 @@ button.style.borderRadius="5rem"
 
 const listeler=document.getElementsByTagName("li")
 listeler[2].style.color="red"
-listeler[listeler.length-1].style.color="magenta"
+listeler[listeler.length-1].style.color="magenta" 
 
 
 
@@ -46,6 +46,8 @@ listeler[listeler.length-1].style.color="magenta"
 // console.log(list) //? HTMLCollection(5) [li.list, li.list, li.list, li.list, li.list]
 console.log(listeler.item(2))
 listeler[3].innerHTML= "REACT / VUE / Swelte / Angular" 
+listeler[3].textContent="react/vue"
+listeler[3].innerText+=" react"
 
 // list[0].style.color = "magenta"
 // list[list.length - 1].style.color = "purple"
@@ -76,9 +78,14 @@ listeler[3].innerHTML= "REACT / VUE / Swelte / Angular"
 //*          GETELEMENTSBYCLASSNAME()
 //*===========================================
 
-// const itemList = document.getElementsByClassName("list")
-// console.log(itemList) //?HTMLCollection [section.item-list]
+const itemList = document.getElementsByClassName("list")
+console.log(itemList) //?HTMLCollection [section.item-list]
 // console.log(itemList)
+// const itemListSpread=[...itemList]
+// console.log(itemList);
+const itemListSpread = [...itemList]
+console.log(itemListSpread)
+itemListSpread.map((x)=>console.log((x.style.color = "red")))
 
 // //? Array.from() (HTMLCollection -> Array)
 // const itemListArr = Array.from(itemList)
