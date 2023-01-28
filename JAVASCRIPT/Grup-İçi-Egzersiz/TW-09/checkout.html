@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="checkout.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <header><h1>Checkout</h1></header>
+    </section>
+    <main>
+      <section class="first_section">
+        <div class="img img1">
+          <img src="../TW-09/image/" alt="" />
+        </div>
+        <div class="inform bag">
+          <h3>Vintage Backbag</h3>
+          <p>
+            $25.98 <span> <del>$34.99</del></span>
+          </p>
+          <div class="buton"><button class="plus-neg negative">-</button
+          ><input type="text" value="1"/><button class="plus-neg plus">+</button><br></div>
+          
+          <button class="remove">Remove</button>
+          <p>
+            Product Total: <span class="product-total" id="bag-total" >$25.98</span>
+          </p>
+        </div>
+      </section>
+      <section class="second_section">
+        <div class="img img2"><img src="/TW-09/image/photo2.png" alt="" /></div>
+        <div class="inform shoes">
+          <h3>Levi Shoes</h3>
+          <p>
+            $45.99<span> <del>$54.99</del></span>
+          </p>
+          <div class="buton"><button class="plus-neg negative">-</button> 
+       
+          <input type="text" value="1"/><button class="plus-neg plus">+</button>
+          <br /></div>
+          
+          <button class="remove">Remove</button>
+          <p>
+            Product Total: <span class="product-total shoes-total">$45.99</span>
+          </p>
+        </div>
+      </section>
+
+      <section class="third_section">
+        <div class="img img3"><img src="/TW-09/image/photo3.jpg" alt="" /></div>
+        <div class="inform clock">
+          <h3>Antique Clock</h3>
+          <p>
+            $74.99 <span> <del>$94.99</del></span>
+          </p>
+          <div class="buton">
+               <button class="plus-neg negative">-</button
+          ><input type="text" value="1"/><button class="plus-neg plus">+</button> <br />
+          </div>
+       
+          <button class="remove">Remove</button>
+          <p>
+            Product Total: <span class="product-total clock-total">$74.99</span>
+          </p>
+        </div>
+      </section>
+      <footer class="price">
+        <p>Subtotal <span class="subtotal">             $146.96</span></p>
+        <p>Tax(%18) <span class="tax">$26.45</span></p>
+        <p>Shipping <span>$15.00</span></p>
+        <p>Total <span class="">$188.41</span></p>
+      </footer>
+    </main>
+    <script src="checkout.js"></script>
+  </body>
+</html>
