@@ -13,11 +13,30 @@ function pc(){
     pcRandom=pcArr[Math.floor(Math.random()*3)];
     console.log(pcRandom);
     pcChoice.innerHTML=`<img src="./assets/${pcRandom}.png">`
+    result()
 
+}
+function result(){
+    switch(userSelect){
+        case "tas":
+            if (pcRandom=="kagit"){
+                lost()
+            }
+            else if(pcRandom=="makas")
+            win()
+    }
 }
 
 
-
+function result(){
+    switch(userSelect){
+        case "tas":
+        }
+            if (pcRandom=="kagit")
+            {lost()
+            }
+            
+}
 
 
 
